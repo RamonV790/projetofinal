@@ -2,7 +2,12 @@
 
 #topo{
         width: 100%;
-        
+        height: 120px;
+        border: 1px solid darkblue;
+        background-color: #1673be;
+        color: #ffffff;
+        text-transform: uppercase;
+
 }
 
 
@@ -18,6 +23,7 @@ ul{
         width: 100%;
         height: 15px;
         border: 1px solid red;
+    
 
 }
 /*filho*/
@@ -26,8 +32,9 @@ ul li{
         padding-left: 80px;
 }
 /*neto*/
-li a{
+ul li a:hover{
         text-decoration: none;
+        color: black;
 
 }
 
