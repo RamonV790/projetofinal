@@ -1,67 +1,88 @@
 /*Criando o topo do site*/
 
 #topo{
-        width: 100%;
-        height: 120px;
+        width:100%;
+        height:120px;
         border:1px solid green;
-        background-color: #1673be;
-        color: #ffffff;
+        background-color:#1673be;
+        color:#ffffff ;
         text-transform: uppercase;
-
-}
-
-
-nav{
-        position: absolute;
-        top:30px;
-        left:600px;
-}
-nav img {
-        width: 51px;
-        height: 51px;
-}
-
-
-/*Exemplo de CSS Externo*/
-
-body{
-        background-color: cornsilk;
-}
-
-/*filho*/
-ul li{
-        display: inline;
-        padding-left: 80px;
-}
-/*neto*/
-ul li a{
+    
+    }
+    
+    #logo{
+        margin-left:50px;
+        margin-top:15px;
+        font-size:25px;
+    }
+    nav{
+    
+       position: absolute;
+       top:45px;
+       left:600px;
+    }
+    nav img{
+        width:47px;
+        height:47px;
+    }
+    
+    
+    
+    
+    /*Exemplo de CSS Externo*/
+    
+    body{
+        background-color:cornsilk;
+    }
+    
+    
+    
+    
+    /*filho*/
+    
+    ul li{   
+         display: inline;
+         padding-left: 80px;
+         width:50px;
+         height:50px;     
+    }
+    /*neto*/
+    ul li a{
+      
         text-decoration: none;
-        color: black;
-
-}
-
-ul li a:hover{
-        background-color: coral;
-
-}
-
-#Principal {
-        width: 100%;
-        height: 500px;
-        border: 2px solid red;
-}
-
-#rodape {
-        width: 100%;
-        height: 50px;
-        border: 2px solid red;
-}
-
-
-
-
-
-
-
-
-
+        color:black;
+       
+       
+    }
+    ul li a:hover{    
+        background-color: coral;  
+        
+    }
+    
+    main{
+        width:100%;
+        height:500px;
+        border:2px solid red;
+    }
+    #rodape{
+        width:100%;
+        height:50px;
+        border:2px solid red;
+    }
+    #busca{
+      
+        text-align:right;
+        margin-right:20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
